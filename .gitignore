@@ -1,0 +1,5 @@
+# Qt-es
+*.pro.user
+
+# other
+.DS_Store

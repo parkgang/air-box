@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>AirBox.png</file>
+        <file>home_button.png</file>
+        <file>back_button.png</file>
+        <file>delivery_icon1.png</file>
+        <file>delivery_icon2.png</file>
+        <file>delivery_icon3.png</file>
+        <file>delivery_icon4.png</file>
+    </qresource>
+    <qresource prefix="/people">
+        <file>PKE.JPG</file>
+        <file>JBS.jpg</file>
+        <file>LIH.jpg</file>
+        <file>KJG.png</file>
+    </qresource>
+    <qresource prefix="/Express_Logo">
+        <file>CJ_Korea_Express_Logo.png</file>
+        <file>Hanjin_Shipping_Logo.jpg</file>
+        <file>Lotte_Parcel_Logo.png</file>
+        <file>Post_office_parcel_Logo.jfif</file>
+    </qresource>
+</RCC>

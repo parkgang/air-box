@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client_Login</class>
+ <widget class="QMainWindow" name="Client_Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="manager_face">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>191</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(255, 100, 100);
+color: rgb(255, 255, 255);
+font: 75 20pt &quot;타이포_쌍문동 B&quot;;
+border-style : outset;
+border-width : 10px;
+border-radius : 20px;
+border-color : rgb(129, 143, 168);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;No Login&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Parcel_Reservation_button">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>191</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(255, 100, 100);
+border-style : outset;
+border-width : 5px;
+border-radius : 35px;
+border-color : rgb(129, 143, 168);
+font: 20pt &quot;배달의민족 주아&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>택배 예약(반품)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Parcel_Find_button">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>191</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(255, 100, 100);
+border-style : outset;
+border-width : 5px;
+border-radius : 35px;
+border-color : rgb(129, 143, 168);
+font: 20pt &quot;배달의민족 주아&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>택배 찾기</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>251</y>
+      <width>231</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="Id_label">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;배달의민족 주아&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;이름&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Name_lineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="Password_label">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;배달의민족 주아&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;생년월일&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Birth_lineEdit">
+         <property name="echoMode">
+          <enum>QLineEdit::Normal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="Password_label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;배달의민족 주아&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;폰번호&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Phone_lineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Login_Button">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(68, 114, 196);
+border-style : outset;
+border-width : 5px;
+border-radius : 10px;
+border-color : rgb(129, 143, 168);
+font: 15pt &quot;배달의민족 주아&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>564</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
